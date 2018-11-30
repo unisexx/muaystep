@@ -1648,7 +1648,7 @@ body:not(.title-tagline-hidden) .site-branding-text {
 	position: relative;
 }
 
-.has-header-image.twentyseventeen-front-page .custom-header,
+/* .has-header-image.twentyseventeen-front-page .custom-header,
 .has-header-video.twentyseventeen-front-page .custom-header,
 .has-header-image.home.blog .custom-header,
 .has-header-video.home.blog .custom-header {
@@ -1656,7 +1656,7 @@ body:not(.title-tagline-hidden) .site-branding-text {
 	height: 300px;
 	height: 75vh;
 	width: 100%;
-}
+} */
 
 .custom-header-media {
 	bottom: 0;
@@ -1684,7 +1684,7 @@ body:not(.title-tagline-hidden) .site-branding-text {
 	z-index: 2;
 }
 
-.has-header-image .custom-header-media img,
+/* .has-header-image .custom-header-media img,
 .has-header-video .custom-header-media video,
 .has-header-video .custom-header-media iframe {
 	position: fixed;
@@ -1693,15 +1693,15 @@ body:not(.title-tagline-hidden) .site-branding-text {
 	max-width: 1000%;
 	min-height: 100%;
 	min-width: 100%;
-	min-width: 100vw; /* vw prevents 1px gap on left that 100% has */
+	min-width: 100vw; 
 	width: auto;
 	top: 50%;
-	padding-bottom: 1px; /* Prevent header from extending beyond the footer */
+	padding-bottom: 1px;
 	-ms-transform: translateX(-50%) translateY(-50%);
 	-moz-transform: translateX(-50%) translateY(-50%);
 	-webkit-transform: translateX(-50%) translateY(-50%);
 	transform: translateX(-50%) translateY(-50%);
-}
+} */
 
 .wp-custom-header .wp-custom-header-video-button { /* Specificity prevents .color-dark button overrides */
 	background-color: rgba(34, 34, 34, 0.5);
@@ -1729,7 +1729,7 @@ body:not(.title-tagline-hidden) .site-branding-text {
 	top: 62px;
 }
 
-.has-header-image:not(.twentyseventeen-front-page):not(.home) .custom-header-media img {
+/* .has-header-image:not(.twentyseventeen-front-page):not(.home) .custom-header-media img {
 	bottom: 0;
 	position: absolute;
 	top: auto;
@@ -1737,10 +1737,10 @@ body:not(.title-tagline-hidden) .site-branding-text {
 	-moz-transform: translateX(-50%) translateY(0);
 	-webkit-transform: translateX(-50%) translateY(0);
 	transform: translateX(-50%) translateY(0);
-}
+} */
 
 /* For browsers that support 'object-fit' */
-@supports ( object-fit: cover ) {
+/* @supports ( object-fit: cover ) {
 	.has-header-image .custom-header-media img,
 	.has-header-video .custom-header-media video,
 	.has-header-video .custom-header-media iframe,
@@ -1756,7 +1756,7 @@ body:not(.title-tagline-hidden) .site-branding-text {
 		transform: none;
 		width: 100%;
 	}
-}
+} */
 
 /* Hides div in Customizer preview when header images or videos change. */
 
@@ -1777,7 +1777,7 @@ body:not(.has-header-image):not(.has-header-video) .custom-header-media {
 13.2 Front Page
 --------------------------------------------------------------*/
 
-.twentyseventeen-front-page .site-content {
+/* .twentyseventeen-front-page .site-content {
 	padding: 0;
 }
 
@@ -1795,12 +1795,11 @@ body:not(.has-header-image):not(.has-header-video) .custom-header-media {
 }
 
 .panel-image:before {
-	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#000000+0,000000+100&0+0,0.3+100 */ /* FF3.6-15 */
-	background: -webkit-linear-gradient(to top, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.3) 100%); /* Chrome10-25,Safari5.1-6 */
+	background: -webkit-linear-gradient(to top, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.3) 100%); 
 	background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0)), to(rgba(0, 0, 0, 0.3)));
 	background: -webkit-linear-gradient(to top, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.3) 100%);
-	background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.3) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#00000000", endColorstr="#4d000000", GradientType=0); /* IE6-9 */
+	background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.3) 100%); 
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#00000000", endColorstr="#4d000000", GradientType=0); 
 	bottom: 0;
 	content: "";
 	left: 0;
@@ -1820,7 +1819,7 @@ body:not(.has-header-image):not(.has-header-video) .custom-header-media {
 .panel-content .wrap {
 	padding-bottom: 0.5em;
 	padding-top: 1.75em;
-}
+} */
 
 /* Panel edit link */
 
@@ -1871,9 +1870,9 @@ body:not(.has-header-image):not(.has-header-video) .custom-header-media {
 	position: relative;
 }
 
-.site-content {
+/* .site-content {
 	padding: 2.5em 0 0;
-}
+} */
 
 /*--------------------------------------------------------------
 13.4 Posts
@@ -3287,7 +3286,7 @@ p > object:only-child {
 
 	/* Front Page */
 
-	.panel-content .wrap {
+/* 	.panel-content .wrap {
 		padding-bottom: 2em;
 		padding-top: 3.5em;
 	}
@@ -3303,7 +3302,7 @@ p > object:only-child {
 	.panel-content .recent-posts .entry-header {
 		margin-bottom: 0;
 	}
-
+ */
 	/* Blog Index, Archive, Search */
 
 	.taxonomy-description {
@@ -3711,7 +3710,7 @@ p > object:only-child {
 
 	/* Front Page */
 
-	.twentyseventeen-front-page.has-header-image .site-branding,
+/* 	.twentyseventeen-front-page.has-header-image .site-branding,
 	.twentyseventeen-front-page.has-header-video .site-branding,
 	.home.blog.has-header-image .site-branding,
 	.home.blog.has-header-video .site-branding {
@@ -3741,8 +3740,9 @@ p > object:only-child {
 	.admin-bar.home.blog.has-header-video .custom-header-media {
 		height: calc(100vh - 32px);
 	}
+	*/
 
-	.panel-content .wrap {
+/* 	.panel-content .wrap {
 		padding-bottom: 4.5em;
 		padding-top: 6em;
 	}
@@ -3750,7 +3750,7 @@ p > object:only-child {
 	.panel-image {
 		height: 100vh;
 		max-height: 1200px;
-	}
+	} */
 
 	/* With panel images 100% of the screen height, we're going to fix the background image where supported to create a parallax-like effect. */
 	.background-fixed .panel-image {
@@ -3798,9 +3798,9 @@ p > object:only-child {
 
 	/* Posts */
 
-	.site-content {
+/* 	.site-content {
 		padding: 5.5em 0 0;
-	}
+	} */
 
 	.single-post .entry-title,
 	.page .entry-title {
@@ -4324,4 +4324,58 @@ p > object:only-child {
 	.site-footer {
 		padding: 0;
 	}
+}
+
+/* Dear Custom Css */
+embed, iframe, img, object, video { max-width: 100% !important;}
+
+#wp-custom-header > img{
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.site-title,.site-description{
+	display:none;
+}
+.wrap{
+	width: 726px !important;
+/* 	border:1px solid #000; */
+	padding-left: 0em;
+    padding-right: 0em;
+}
+footer,.entry-header{
+	display:none !important;
+}
+
+.colors-dark tr, .colors-dark thead th{
+	border-color: #9e9e9e40 !important;
+}
+
+@media only screen and (min-width:768px){
+	#masthead,.custom-header,.custom-header-media{
+		height: 212px !important;
+	}
+}
+
+@media only screen and (min-width:960px){
+	/* styles for browsers larger than 960px; */
+}
+@media only screen and (min-width:1440px){
+	/* styles for browsers larger than 1440px; */
+}
+@media only screen and (min-width:2000px){
+	/* for sumo sized (mac) screens */
+}
+@media only screen and (max-device-width:480px){
+	/* styles for mobile browsers smaller than 480px; (iPhone) */
+}
+@media only screen and (device-width:768px){
+	/* default iPad screens */
+}
+/* different techniques for iPad screening */
+@media only screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation:portrait) {
+	/* For portrait layouts only */
+}
+@media only screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation:landscape) {
+	/* For landscape layouts only */
 }
