@@ -3368,7 +3368,7 @@ p > object:only-child {
 	/* Layout */
 
 	.wrap {
-		max-width: 1000px;
+		max-width: 726px;
 		padding-left: 3em;
 		padding-right: 3em;
 	}
@@ -3468,7 +3468,7 @@ p > object:only-child {
 	.navigation-top {
 		bottom: 0;
 		font-size: 14px;
-		font-size: 0.875rem;
+/* 		font-size: 0.875rem; */
 		left: 0;
 		position: absolute;
 		right: 0;
@@ -3477,7 +3477,7 @@ p > object:only-child {
 	}
 
 	.navigation-top .wrap {
-		max-width: 1000px;
+		max-width: 726px;
 		/* The font size is 14px here and we need 50px padding in ems */
 		padding: 0.75em 3.4166666666667em;
 	}
@@ -4338,7 +4338,7 @@ embed, iframe, img, object, video { max-width: 100% !important;}
 	display:none;
 }
 .wrap{
-	width: 726px !important;
+/* 	width: 726px !important; */
 /* 	border:1px solid #000; */
 	padding-left: 0em;
     padding-right: 0em;
