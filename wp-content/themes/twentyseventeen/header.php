@@ -72,7 +72,7 @@ function runSlideShow(){
 	<header id="masthead" class="site-header" role="banner">
 
 		<?php get_template_part( 'template-parts/header/header', 'image' ); ?>
-
+		
 		<?php if ( has_nav_menu( 'top' ) ) : ?>
 			<div class="navigation-top">
 				<div class="wrap">
@@ -99,6 +99,54 @@ function runSlideShow(){
 	<div class="site-content-contain">
 		<div id="content" class="site-content">
 			
+			
+			<!-- login form -->
+			<? 
+				if($_GET[act]=="1") { 
+				echo "<meta http-equiv='refresh' content='0;url=http://www.muaystep2.com/play/login/service/?user=$_POST[user]&pass=$_POST[pass]'>"; 
+				} 
+			?> 
+			<div class="wrap">
+				<form class="form-inline"  method="post" action="?act=1" style="position:absolute;top:-30px;z-index:999;">
+					<label class="sr-only">Name</label>
+					<input type="text" class="form-control form-control-sm" placeholder="username" style="width:90px;height:23px;background:#fff;margin-right:5px;" name="user">
+					<input type="password" class="form-control form-control-sm" placeholder="password" style="width:90px;height:23px;background:#fff;margin-right:5px;" name="pass">
+					<input type="image" name="imageField" id="imageField" src="http://www.muaystep.com/images/index_01_01_02_13.jpg">
+				</form>
+			</div>
+			
+			
+			
+			
+			
+			<!-- header menu -->
+			<style>
+				.navigation-top{display:none !important;} /*ซ่อน head เมนู wordpress*/
+				.headmenu .col-2{padding-left:0px;padding-right:0px;}
+			</style>
+<div class="wrap headmenu">
+    <div class="container" style="margin-bottom:5px;">
+        <div class="row" style="justify-content:center;">
+                <a href="http://www.muaystep.com/wordpress/"><img src="http://www.muaystep.com/images/head_02_01.jpg" style="
+    min-height: 42px;"></a>
+                <a href="http://www.muaystep.com/wordpress/โปรโมชั่น"><img src="http://www.muaystep.com/images/head_02_02.jpg" style="
+    min-height: 42px;"></a>
+                <a href="http://www.muaystep.com/wordpress/เกี่ยวกับเรา"><img src="http://www.muaystep.com/images/head_02_03.jpg" style="
+    min-height: 42px;"></a>
+                <a href="http://www.muaystep.com/wordpress/สมัครสมาชิก"><img src="http://www.muaystep.com/images/head_02_04.jpg" style="
+    min-height: 42px;"></a>
+                <a href="http://www.muaystep.com/wordpress/กติกา"><img src="http://www.muaystep.com/images/head_02_05.jpg" style="
+    min-height: 42px;"></a>
+                <a href="http://www.muaystep.com/wordpress/ติดต่อเรา"><img src="http://www.muaystep.com/images/head_02_06.jpg" style="
+    min-height: 42px;"></a>
+        </div>
+    </div>
+</div>
+	
+	
+	
+	
+	
 			
 			<!-- social banner block -->
 				<div class="wrap">
