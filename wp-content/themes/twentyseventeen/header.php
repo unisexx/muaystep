@@ -33,10 +33,10 @@
 var slideShowSpeed = 3000;
 var crossFadeDuration = 3;
 var Pic = new Array();
-Pic[0] = 'http://localhost/muaystep/wp-content/uploads/2018/12/1.jpg';
-Pic[1] = 'http://localhost/muaystep/wp-content/uploads/2018/12/2.jpg';
-Pic[2] = 'http://localhost/muaystep/wp-content/uploads/2018/12/3.jpg';
-Pic[3] = 'http://localhost/muaystep/wp-content/uploads/2018/12/4.jpg';
+Pic[0] = 'http://www.muaystep.com/wp-content/uploads/2018/12/1.jpg';
+Pic[1] = 'http://www.muaystep.com/wp-content/uploads/2018/12/2.jpg';
+Pic[2] = 'http://www.muaystep.com/wp-content/uploads/2018/12/3.jpg';
+Pic[3] = 'http://www.muaystep.com/wp-content/uploads/2018/12/4.jpg';
 var t;
 var j = 0;
 var p = Pic.length;
@@ -127,17 +127,17 @@ function runSlideShow(){
 <div class="wrap headmenu">
     <div class="container" style="margin-bottom:5px;">
         <div class="row" style="justify-content:center;">
-                <a href="http://www.muaystep.com/wordpress/"><img src="http://www.muaystep.com/images/head_02_01.jpg" style="
+                <a href="http://www.muaystep.com"><img src="http://www.muaystep.com/images/head_02_01.jpg" style="
     min-height: 42px;"></a>
-                <a href="http://www.muaystep.com/wordpress/โปรโมชั่น"><img src="http://www.muaystep.com/images/head_02_02.jpg" style="
+                <a href="http://www.muaystep.com/โปรโมชั่น"><img src="http://www.muaystep.com/images/head_02_02.jpg" style="
     min-height: 42px;"></a>
-                <a href="http://www.muaystep.com/wordpress/เกี่ยวกับเรา"><img src="http://www.muaystep.com/images/head_02_03.jpg" style="
+                <a href="http://www.muaystep.com/เกี่ยวกับเรา"><img src="http://www.muaystep.com/images/head_02_03.jpg" style="
     min-height: 42px;"></a>
-                <a href="http://www.muaystep.com/wordpress/สมัครสมาชิก"><img src="http://www.muaystep.com/images/head_02_04.jpg" style="
+                <a href="http://www.muaystep.com/สมัครสมาชิก"><img src="http://www.muaystep.com/images/head_02_04.jpg" style="
     min-height: 42px;"></a>
-                <a href="http://www.muaystep.com/wordpress/กติกา"><img src="http://www.muaystep.com/images/head_02_05.jpg" style="
+                <a href="http://www.muaystep.com/กติกา"><img src="http://www.muaystep.com/images/head_02_05.jpg" style="
     min-height: 42px;"></a>
-                <a href="http://www.muaystep.com/wordpress/ติดต่อเรา"><img src="http://www.muaystep.com/images/head_02_06.jpg" style="
+                <a href="http://www.muaystep.com/ติดต่อเรา"><img src="http://www.muaystep.com/images/head_02_06.jpg" style="
     min-height: 42px;"></a>
         </div>
     </div>
@@ -153,16 +153,16 @@ function runSlideShow(){
 			<div class="container"  style="margin-bottom:5px;">
   <div class="row">
     <div class="col-4 my-auto">
-<a href="http://line.me/ti/p/~@rphone"><img src="http://localhost/muaystep/wp-content/uploads/2018/11/line@.gif" alt="" class="alignnone size-full wp-image-86" /></a>
+<a href="http://line.me/ti/p/~@rphone"><img src="http://www.muaystep.com/wp-content/uploads/2018/11/line@.gif" alt="" class="alignnone size-full wp-image-86" /></a>
     </div>
     <div class="col-4 my-auto">
-<a href="http://line.me/ti/p/~rphone1"><img src="http://localhost/muaystep/wp-content/uploads/2018/11/line.gif" alt="" class="alignnone size-full wp-image-85" /></a>
+<a href="http://line.me/ti/p/~rphone1"><img src="http://www.muaystep.com/wp-content/uploads/2018/11/line.gif" alt="" class="alignnone size-full wp-image-85" /></a>
     </div>
     <div class="col-2 my-auto">
-<a href="http://localhost/muaystep/wp-content/uploads/2018/11/qrcode1.jpg"><img src="http://localhost/muaystep/wp-content/uploads/2018/11/qrcode1.jpg" alt="" class="alignnone size-full wp-image-87" /></a>
+<a href="http://www.muaystep.com/wp-content/uploads/2018/11/qrcode1.jpg" target="_blank"><img src="http://www.muaystep.com/wp-content/uploads/2018/11/qrcode1.jpg" alt="" class="alignnone size-full wp-image-87" /></a>
     </div>
     <div class="col-2 my-auto">
-<a href="images/qrcode2.jpg"><img src="http://localhost/muaystep/wp-content/uploads/2018/11/qrcode2.jpg" height="50" border="0">
+<a href="http://www.muaystep.com/wp-content/uploads/2018/11/qrcode2.jpg" target="_blank"><img src="http://www.muaystep.com/wp-content/uploads/2018/11/qrcode2.jpg" height="50" border="0">
 </a>
     </div>
   </div>
